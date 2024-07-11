@@ -1,0 +1,24 @@
+import java.util.*;
+public class Ex {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Entetr the valu :");
+    int no=sc.nextInt();
+    int t=no;
+    int r=0,m;
+    
+    while(t!=0) {
+    	m=t%10;
+    	r=r*10+m;
+    	t=t/10;
+    }
+    if(no==r) {
+    	System.out.println(no+": palindrom number");
+    }else {
+    	System.out.println("Number is not palindrom");
+    }
+	}
+
+}

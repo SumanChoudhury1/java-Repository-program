@@ -1,0 +1,21 @@
+import java.util.*;
+public class Ex {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+  int no=370,on,r;
+  int lt=0;
+  on=no;
+  while(on!=0) {
+	  r=on%10;
+	  lt+=Math.pow(r, 3);
+	  on/=10;
+  }	if(lt==no) {
+	  System.out.print(no+"is a armstrong no");
+  }else {
+	  System.out.print(no+"is not armstrong number");
+  }
+  
+	}
+
+}

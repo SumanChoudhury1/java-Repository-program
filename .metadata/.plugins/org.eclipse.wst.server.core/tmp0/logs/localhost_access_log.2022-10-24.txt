@@ -1,0 +1,8 @@
+127.0.0.1 - - [24/Oct/2022:19:49:53 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [24/Oct/2022:19:49:55 +0530] "GET /Web_app_demo_2/welcomePage.html HTTP/1.1" 200 148
+0:0:0:0:0:0:0:1 - - [24/Oct/2022:19:54:47 +0530] "GET /Web_app_demo_2/homePage.html HTTP/1.1" 200 158
+127.0.0.1 - - [24/Oct/2022:19:58:00 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [24/Oct/2022:19:59:56 +0530] "GET /Web_app_demo_2/homePage.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [24/Oct/2022:20:02:50 +0530] "GET /web_app_demo_2/welcomPage.html HTTP/1.1" 404 785
+0:0:0:0:0:0:0:1 - - [24/Oct/2022:20:02:50 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [24/Oct/2022:20:04:10 +0530] "GET /Web_app_demo_2/homePage.html HTTP/1.1" 200 158
